@@ -1,0 +1,103 @@
+@charset "UTF-8";
+
+/* Variáveis */
+:root{
+
+    --corPricipal: black;
+    --corCard1: #f8c344;
+    --corCard2: white;
+    --corCard3: #d4a32f;
+    --corFonte: black; 
+    --fontePrincipal: 'Bebas Neue', cursive;
+    --fonteSecundaria: 'Inter', sans-serif;
+
+}
+
+/* Fim variáveis*/
+
+body{
+    background-color: var(--corPricipal);
+}
+
+/* Fontes*/
+p{   
+    margin: 0px;
+    text-align: center;
+    font-weight: bolder;
+    font-family: var(--fonteSecundaria);
+}
+
+h2{
+    padding: 5px;
+    margin: 0px;
+    font-weight: normal;
+    font-family: var(--fontePrincipal);
+    color: var(--corFonte);
+    text-align: center;
+}
+
+h5{
+    text-align: center;
+    color: var(--corCard3);
+}
+
+a{
+    font-size: 1.1em;
+    font-family: var(--fonteSecundaria);
+    display: block;
+    text-decoration: none;
+    color: var(--corFonte);
+    padding: 10px;
+    text-align: center;
+}
+
+a:hover{
+    border-radius: 20px;
+    color: var(--corCard2);
+    background-color: #d4a32f;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.219);
+    transition: all 1s;
+}
+
+/*Fim Fontes*/
+
+/* cabeçalho*/
+header{
+    width: 100%;
+    height: 100px;
+    background-image: linear-gradient( to bottom, var(--corCard3), var(--corCard1));
+    border-radius: 10px 10px;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.288);
+}
+
+.EspaçoFoto{
+    width: 100px;
+    height: 100px;
+    margin-left: 122px;
+    padding: 5px;
+    margin-top: -50px;
+    background-color: var(--corCard2);
+    border-radius: 50%;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.233);
+}
+
+.FotoPerfil{
+    border-radius: 50%;
+}
+
+/*Fim cabeçalho*/
+
+/* Espaço do card */
+.container{
+    width: 350px;
+    height: 400px;
+    background-color:var(--corCard2);
+    border-radius: 10px;
+    margin: 250px auto;
+}
+
+.links{
+    margin-top: 15px;
+}
+/* Fim Espaço do card*/
+
